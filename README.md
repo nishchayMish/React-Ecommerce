@@ -42,7 +42,7 @@ npm install  # For projects using npm
 
 ### 3️⃣ Run the Project
 ```sh
-npm start  # If using React or another framework
+npm run dev  # If using React or another framework
 ```
 
 ---
