@@ -6,7 +6,9 @@ const Navbar = () => {
   const[sidebarVisible, setSidebarVisible] = useState(false)
   return (
     <div className='flex justify-between items-center py-5 font-medium'>
-      <img src={assets.logo} className='w-36'/>
+      <Link to='/'>
+        <img src={assets.logo} className='w-36'/>
+      </Link>
       <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
         <NavLink to='/' className="flex flex-col items-center gap-1">
           <p className='uppercase'>Home</p>
@@ -60,7 +62,7 @@ const Navbar = () => {
               <img src={assets.dropdown_icon} className='h-4 rotate-180'/>
               <p>Back</p>
             </div>  
-            <NavLink onClick={()=>setSidebarVisible(false)} to='/' className='py-2 pl-6'></NavLink>
+            <NavLink onClick={()=>setSidebarVisible(false)} to='/' className='mt-4 pl-6 border'></NavLink>
             <NavLink onClick={()=>setSidebarVisible(false)} to='/home' className='py-2 pl-6 border'>HOME</NavLink>
             <NavLink onClick={()=>setSidebarVisible(false)} to='/collection' className='py-2 pl-6'>COLLECTIONS</NavLink>
             <NavLink onClick={()=>setSidebarVisible(false)} to='/about' className='py-2 pl-6 border'>ABOUT</NavLink>
