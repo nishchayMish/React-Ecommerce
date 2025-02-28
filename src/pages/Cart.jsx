@@ -5,7 +5,7 @@ import { assets } from '../assets/frontend_assets/assets';
 import CartTotal from '../components/CartTotal';
 
 const Cart = () => {
-  const { cartItems, products, currency, updateQuantity } = useContext(ShopContext);
+  const { cartItems, products, currency, updateQuantity, navigate } = useContext(ShopContext);
   const [cartData, setCartData] = useState([]);
 
   useEffect(() => {
@@ -80,6 +80,10 @@ const Cart = () => {
           <CartTotal/>
         </div>
       </div>
+      <button onClick={()=>navigate('/place-order')} 
+        className="mt-6 w-full bg-black text-white py-3 rounded-md text-sm font-medium hover:bg-gray-900 transition cursor-pointer">
+        Proceed to Checkout
+      </button>
     </div>
   );
 };

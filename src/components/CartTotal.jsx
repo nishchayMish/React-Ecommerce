@@ -34,11 +34,6 @@ const CartTotal = () => {
         </div>
         <hr />
       </div>
-
-      {/* Checkout Button */}
-      <button className="mt-6 w-full bg-black text-white py-3 rounded-md text-sm font-medium hover:bg-gray-900 transition cursor-pointer">
-        Proceed to Checkout
-      </button>
     </div>
   );
 };
