@@ -5,7 +5,7 @@ Hermes is a modern and stylish e-commerce website built with React, offering a s
 
 
 ## 🌟 Images
-![Hermes Homepage](./src/screenshots/cart.png)
+![Hermes Homepage](./src/screenshots/home.png)
 ![Hermes CartPage](src/screenshots/cart.png)
 
 ## 🌟 Features
@@ -67,4 +67,4 @@ Then follow the respective platform's deployment process.
 📍 **Address:** 123 Fashion Avenue, Rosewood District, New Delhi, India – 110001  
 📞 **Phone:** +91 7877033944  
 📧 **Email:** nishchaymishra2100@gmail.com
-🌐 **Website:** [www.hermes.com](#)
+🌐 **Website:** [https://deluxe-figolla-c83de7.netlify.app/](#)
